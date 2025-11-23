@@ -32,7 +32,6 @@ function do_div(x, y) {
 }
 
 // Preparation.
-;
 %PrepareFunctionForOptimization(do_div);
 assertEquals(17, do_div(51, 3));
 assertEquals(13, do_div(65, 5));
